@@ -50,8 +50,8 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(135deg, #444444, #777777, #AAAAAA);
-  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 /* IDs individuais para pequenas variações de cinza */
@@ -64,4 +64,4 @@ button:hover {
 #yt:hover, #inst:hover, #ttk:hover, #spot:hover, #x:hover {
   background: linear-gradient(135deg, #666666, #BBBBBB);
   color: black;
-}
+  }
